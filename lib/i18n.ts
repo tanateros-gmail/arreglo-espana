@@ -112,15 +112,15 @@ const sharedWorks: Record<Locale, PortfolioPiece[]> = {
       mood: "Retrato catedralicio",
       imageAlt: "Silueta editorial bajo arcos victorianos y luz de vela",
       description:
-        "Un estudio solemne bajo sombras nervadas, donde la vela apenas alcanza los bordes del encaje y la piedra."
+        "Una serie editorial solemne bajo sombras nervadas, donde el terciopelo negro, la piel pálida y la vela rozan apenas los bordes del encaje y la piedra."
     },
     {
       title: "Nocturno de llave y cuervo",
-      year: "2025",
+      year: "2026",
       mood: "Narrativa de objeto",
       imageAlt: "Llave antigua, plumas negras y pergamino envejecido",
       description:
-        "Latón antiguo, plumas de tinta y tonos de pergamino ordenados como un inventario susurrado desde una biblioteca cerrada."
+        "Latón antiguo, plumas de tinta y tonos de pergamino ordenados como un inventario susurrado desde una biblioteca cerrada durante una tormenta."
     },
     {
       title: "Luna sobre el conservatorio",
@@ -128,7 +128,31 @@ const sharedWorks: Record<Locale, PortfolioPiece[]> = {
       mood: "Campaña atmosférica",
       imageAlt: "Luna azul medianoche sobre un invernadero velado por niebla",
       description:
-        "Una historia visual suspendida entre niebla azul medianoche, siluetas de vidrio y detalles carmesí contenidos."
+        "Una historia visual suspendida entre niebla azul medianoche, siluetas de vidrio, flores marchitas y detalles carmesí contenidos."
+    },
+    {
+      title: "El gabinete de los retratos mudos",
+      year: "2025",
+      mood: "Dirección de arte",
+      imageAlt: "Retratos antiguos dentro de marcos dorados y sombras granate",
+      description:
+        "Composición de retratos, marcos agrietados y cortinas pesadas para una marca que quería lujo oscuro sin caer en caricatura de Halloween."
+    },
+    {
+      title: "Cartas desde el cementerio de lluvia",
+      year: "2024",
+      mood: "Editorial poética",
+      imageAlt: "Cartas manuscritas sobre piedra húmeda con hojas oscuras",
+      description:
+        "Papeles húmedos, tinta corrida y mármol frío construyen una pequeña elegía visual para perfumes, joyería y piezas de autor."
+    },
+    {
+      title: "La sala de las trece velas",
+      year: "2024",
+      mood: "Escenografía íntima",
+      imageAlt: "Mesa de madera con trece velas, copa roja y sombra de cruz ornamental",
+      description:
+        "Un set íntimo de madera vieja, reflejos de vino, cera derretida y sombras largas pensado para campañas nocturnas y lanzamientos boutique."
     }
   ],
   en: [
@@ -138,15 +162,15 @@ const sharedWorks: Record<Locale, PortfolioPiece[]> = {
       mood: "Cathedral portraiture",
       imageAlt: "Editorial silhouette beneath Victorian arches and candlelight",
       description:
-        "A solemn editorial study staged beneath ribbed shadows, where candlelight catches only the edges of lace and stone."
+        "A solemn editorial series beneath ribbed shadows, where black velvet, pale skin, and candlelight catch only the edges of lace and stone."
     },
     {
       title: "Raven Key Nocturne",
-      year: "2025",
+      year: "2026",
       mood: "Object narrative",
       imageAlt: "Antique key, black feathers, and aged parchment",
       description:
-        "Antique brass, ink-black feathers, and parchment tones arranged like a whispered inventory from a locked library."
+        "Antique brass, ink-black feathers, and parchment tones arranged like a whispered inventory from a locked library during a storm."
     },
     {
       title: "Moon over the Conservatory",
@@ -154,7 +178,31 @@ const sharedWorks: Record<Locale, PortfolioPiece[]> = {
       mood: "Atmospheric campaign",
       imageAlt: "Midnight-blue moon above a fog-veiled conservatory",
       description:
-        "A cinematic product story suspended between midnight blue fog, glasshouse silhouettes, and restrained crimson detail."
+        "A cinematic product story suspended between midnight-blue fog, glasshouse silhouettes, wilted flowers, and restrained crimson detail."
+    },
+    {
+      title: "The Cabinet of Silent Portraits",
+      year: "2025",
+      mood: "Art direction",
+      imageAlt: "Antique portraits in gold frames with deep burgundy shadows",
+      description:
+        "Portraits, cracked frames, and heavy curtains composed for a brand that wanted dark luxury without becoming Halloween pastiche."
+    },
+    {
+      title: "Letters from the Rain Cemetery",
+      year: "2024",
+      mood: "Poetic editorial",
+      imageAlt: "Handwritten letters on wet stone with dark leaves",
+      description:
+        "Damp paper, bleeding ink, and cold marble form a small visual elegy for perfume, jewelry, and independent objects."
+    },
+    {
+      title: "The Room of Thirteen Candles",
+      year: "2024",
+      mood: "Intimate scenography",
+      imageAlt: "Wooden table with thirteen candles, red glass, and an ornate cross shadow",
+      description:
+        "An intimate set of old wood, wine reflections, melted wax, and long shadows designed for nocturnal campaigns and boutique launches."
     }
   ],
   ru: [
@@ -164,15 +212,15 @@ const sharedWorks: Record<Locale, PortfolioPiece[]> = {
       mood: "Кафедральный портрет",
       imageAlt: "Редакционный силуэт под викторианскими арками и свечным светом",
       description:
-        "Сдержанный визуальный этюд в ребристых тенях, где свеча касается только края кружева и камня."
+        "Сдержанная редакционная серия в ребристых тенях, где черный бархат, бледная кожа и свеча касаются только края кружева и камня."
     },
     {
       title: "Ноктюрн ключа и ворона",
-      year: "2025",
+      year: "2026",
       mood: "Предметная история",
       imageAlt: "Старинный ключ, черные перья и состаренный пергамент",
       description:
-        "Старая латунь, чернильные перья и пергаментные тона собраны как шепот инвентарной книги из закрытой библиотеки."
+        "Старая латунь, чернильные перья и пергаментные тона собраны как шепот инвентарной книги из закрытой библиотеки во время грозы."
     },
     {
       title: "Луна над оранжереей",
@@ -180,7 +228,31 @@ const sharedWorks: Record<Locale, PortfolioPiece[]> = {
       mood: "Атмосферная кампания",
       imageAlt: "Полуночно-синяя луна над оранжереей в тумане",
       description:
-        "Кинематографичная история между полуночным туманом, стеклянными силуэтами и сдержанным карминовым акцентом."
+        "Кинематографичная история между полуночно-синим туманом, стеклянными силуэтами, увядшими цветами и сдержанным карминовым акцентом."
+    },
+    {
+      title: "Кабинет молчаливых портретов",
+      year: "2025",
+      mood: "Арт-дирекшн",
+      imageAlt: "Старинные портреты в золотых рамах и глубоких бордовых тенях",
+      description:
+        "Портреты, потрескавшиеся рамы и тяжелые шторы для бренда, которому нужна темная роскошь без хэллоуинской театральности."
+    },
+    {
+      title: "Письма с дождливого кладбища",
+      year: "2024",
+      mood: "Поэтический editorial",
+      imageAlt: "Рукописные письма на мокром камне с темными листьями",
+      description:
+        "Влажная бумага, расплывающиеся чернила и холодный мрамор складываются в маленькую визуальную элегию для парфюма, украшений и авторских объектов."
+    },
+    {
+      title: "Комната тринадцати свечей",
+      year: "2024",
+      mood: "Интимная сценография",
+      imageAlt: "Деревянный стол с тринадцатью свечами, красным бокалом и тенью орнаментального креста",
+      description:
+        "Интимный сет из старого дерева, винных отражений, расплавленного воска и длинных теней для ночных кампаний и бутиковых запусков."
     }
   ]
 };
@@ -251,9 +323,22 @@ const fallbackContent: Record<Locale, SiteContent> = {
       eyebrow: "Contacto",
       title: "Envía una nota bajo la luna de hierro.",
       items: [
-        { label: "Estudio", value: "Arreglo España Atelier", href: "mailto:atelier@example.com" },
-        { label: "Encargos", value: "commissions@example.com", href: "mailto:commissions@example.com" },
-        { label: "Línea nocturna", value: "+34 000 000 000", href: "tel:+34000000000" }
+        {
+          label: "Estudio",
+          value: "Calle de la Luna 13, Madrid",
+          href: "https://maps.google.com/?q=Calle+de+la+Luna+13+Madrid"
+        },
+        {
+          label: "Encargos editoriales",
+          value: "atelier@arreglo-espana.example",
+          href: "mailto:atelier@arreglo-espana.example"
+        },
+        {
+          label: "Ritual de consulta",
+          value: "Sesiones nocturnas, dirección de arte y campañas boutique",
+          href: "mailto:atelier@arreglo-espana.example?subject=Consulta%20g%C3%B3tica"
+        },
+        { label: "Línea nocturna", value: "+34 611 013 013", href: "tel:+34611013013" }
       ]
     }
   },
@@ -322,9 +407,22 @@ const fallbackContent: Record<Locale, SiteContent> = {
       eyebrow: "Contact",
       title: "Send a note beneath the iron moon.",
       items: [
-        { label: "Studio", value: "Arreglo Espana Atelier", href: "mailto:atelier@example.com" },
-        { label: "Commissions", value: "commissions@example.com", href: "mailto:commissions@example.com" },
-        { label: "Moonlit line", value: "+34 000 000 000", href: "tel:+34000000000" }
+        {
+          label: "Studio",
+          value: "13 Calle de la Luna, Madrid",
+          href: "https://maps.google.com/?q=Calle+de+la+Luna+13+Madrid"
+        },
+        {
+          label: "Editorial commissions",
+          value: "atelier@arreglo-espana.example",
+          href: "mailto:atelier@arreglo-espana.example"
+        },
+        {
+          label: "Consultation ritual",
+          value: "Night sessions, art direction, and boutique campaigns",
+          href: "mailto:atelier@arreglo-espana.example?subject=Gothic%20consultation"
+        },
+        { label: "Moonlit line", value: "+34 611 013 013", href: "tel:+34611013013" }
       ]
     }
   },
@@ -393,9 +491,22 @@ const fallbackContent: Record<Locale, SiteContent> = {
       eyebrow: "Контакты",
       title: "Отправьте записку под железной луной.",
       items: [
-        { label: "Студия", value: "Arreglo Espana Atelier", href: "mailto:atelier@example.com" },
-        { label: "Заказы", value: "commissions@example.com", href: "mailto:commissions@example.com" },
-        { label: "Ночная линия", value: "+34 000 000 000", href: "tel:+34000000000" }
+        {
+          label: "Студия",
+          value: "Calle de la Luna 13, Мадрид",
+          href: "https://maps.google.com/?q=Calle+de+la+Luna+13+Madrid"
+        },
+        {
+          label: "Редакционные заказы",
+          value: "atelier@arreglo-espana.example",
+          href: "mailto:atelier@arreglo-espana.example"
+        },
+        {
+          label: "Консультационный ритуал",
+          value: "Ночные съемки, арт-дирекшн и бутиковые кампании",
+          href: "mailto:atelier@arreglo-espana.example?subject=Gothic%20consultation"
+        },
+        { label: "Ночная линия", value: "+34 611 013 013", href: "tel:+34611013013" }
       ]
     }
   }
